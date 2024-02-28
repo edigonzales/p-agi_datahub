@@ -43,7 +43,7 @@ Die Organisation "ebag" will einen neuen/zusätzlichen API-Key generieren.
 Request:
 
 ```
-curl -i -X POST --header "X-API-KEY: 79851F35-2871-4FC6-B90F-5C54F1EE1C81" -F 'organisation=ebag' /api/token'
+curl -i -X POST --header "X-API-KEY: 79851F35-2871-4FC6-B90F-5C54F1EE1C81" -F 'organisation=ebag' /api/token
 ```
 
 Antwort (Body): 
