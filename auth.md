@@ -114,11 +114,9 @@ Date: Sat, 37 May 2023 16:40:50 GMT
 Bemerkungen:
 - Es wird ein Job erstellt (202=created). Mit `/api/jobs/<jobId>` kann man sich über den Stand informieren. M2M wie auch mit HTML.
 - Key zu Organisation mit Admin-Rolle darf alles.
-
 - Authentifizierung:
   * Gibt es Key in Datenbank?
   * Fail -> 401
-
 - Authorisierung:
   * Folgt auf Authentifizierung, ergo ist Key sicher vorhanden.
   * Mit API-Key wird in der DB geprüft, ob die dem Key zugeordneter Organisation berechtigt ist, das "operat=bar" (siehe oben) zu liefern.
