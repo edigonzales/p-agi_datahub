@@ -18,7 +18,7 @@ classDiagram
         +String role 
     }
 
-    Organisation *-- ApiKey
+    Organisation "1" *-- "0..*" ApiKey
 
     class Operat {
         +String name 
